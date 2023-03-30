@@ -20,7 +20,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     SearchComponent,
     ListComponent,
     DetailsComponent,
-    CommentsComponent
+    CommentsComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,9 +29,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     MaterialModule,
     WebShareModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
